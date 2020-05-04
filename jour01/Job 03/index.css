@@ -1,0 +1,45 @@
+.section
+{
+    background-color: #88c1d0;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+#container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+
+
+@media screen and (min-width: 1600px)
+{
+  .section
+  {
+      width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px)
+{
+    .section
+  {
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px)
+{
+    .section
+  {
+      width: 90%;
+  }
+}
+
